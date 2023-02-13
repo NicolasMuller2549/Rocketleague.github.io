@@ -1,0 +1,611 @@
+/* how to id # 
+/* how to class . */
+@font-face {
+  font-family: "Bourgeois W00 Medium";
+  src: url("https://rocketleague.media.zestyio.com/15bd325b-7340-4820-a91f-4c769a671b48.eot?#iefix");
+  src: url("https://rocketleague.media.zestyio.com/15bd325b-7340-4820-a91f-4c769a671b48.eot?#iefix") format("eot"),
+    url("https://rocketleague.media.zestyio.com/a4269305-6c5d-410c-a86c-fc728375b1ed.woff2") format("woff2"),
+    url("https://rocketleague.media.zestyio.com/4b45c333-6fe2-4083-a90c-aaf8c3787c21.woff") format("woff"),
+    url("https://rocketleague.media.zestyio.com/11bf773b-5756-44f7-986c-38294a86bce7.ttf") format("truetype"),
+    url("https://rocketleague.media.zestyio.com/7217b7db-d231-4217-9db5-bc2c2918ce05.svg#7217b7db-d231-4217-9db5-bc2c2918ce05") format("svg");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Bourgeois W00 Medium", "Arial Regular", Arial, sans-serif;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+  text-decoration: none;
+  line-height: inherit;
+  cursor: pointer;
+}
+
+a:-webkit-any(link) {
+  color: -webkit-link;
+  cursor: pointer;
+}
+
+/* Pay attention to this */
+.navbar {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+  background: #000b28;
+  padding: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* ---- */
+
+.nav-list>li {
+  display: inline-block;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.icon-list>li {
+  color: white;
+  display: inline-block;
+  font-size: 20px;
+  margin-right: 20px;
+  text-transform: capitalize;
+}
+
+/* Pay attention to this */
+.main-background {
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/* ---- */
+
+.cars-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 1600px;
+  width: 100%;
+  min-height: 100%;
+  min-width: 1024px;
+  background-image: url("https://rocketleague.media.zestyio.com/rl_home_hero_s9_desktop_bg.H1y26jGDo.png?width=1920&optimize=high");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.octane-car {
+  color: white;
+  height: 100%;
+  width: 1500px;
+  background-image: url("../imgs/octane.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 2;
+}
+
+.centered-ball {
+  position: absolute;
+  z-index: 2;
+  height: 1200px;
+  left: 400px;
+  background-image: url("../imgs/ball.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1200px;
+  top: 300px;
+}
+
+.dominus-car {
+  color: white;
+  height: 100%;
+  width: 1200px;
+  background-image: url("../imgs/civic.webp");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 2;
+}
+
+.season-title-container {
+  position: absolute;
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 5rem;
+  background-image: url("../imgs/season.webp");
+  background-size: cover;
+}
+
+.season-top {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/* Pay attention to this */
+#card-wrap {
+  display: flex;
+  position: relative;
+  background-color: #91105b;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+/* ---- */
+
+.card-container {
+  position: relative;
+  top: -200px;
+  z-index: 10;
+  width: 100%;
+  height: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.card {
+  width: 500px;
+  height: 400px;
+  margin: 0rem 1rem 1rem 0;
+}
+
+.card-body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100%;
+  background-image: url("https://rocketleague.media.zestyio.com/giraffilly.jpg?width=1440&optimize=high");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-body-two {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100%;
+  background-image: url("https://rocketleague.media.zestyio.com/bingoco.jpg?width=1440&optimize=high");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-body-tree {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100%;
+  background-image: url("https://rocketleague.media.zestyio.com/rl_gameplay_june-2018_23_1080.Hysjz-OPo.jpg?width=1440&optimize=high");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-body-tree {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100%;
+  background-image: url("https://rocketleague.media.zestyio.com/NikeKeyArt.jpg?width=1440&optimize=high");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-body-four {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100%;
+  background-image: url("https://rocketleague.media.zestyio.com/rl_gameplay_june-2018_23_1080.Hysjz-OPo.jpg?width=1440&optimize=high");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-body-five {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100%;
+  background-image: url("https://rocketleague.media.zestyio.com/Season6.jpg?width=1440&optimize=high");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.card-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.card-paragraph {
+  padding: 0 1rem;
+  font-size: 26px;
+  font-weight: 400;
+  color: white;
+  background-color: black;
+  border-top: 0.15vw solid orange;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.lava-section {
+  background-image: url("https://rocketleague.media.zestyio.com/rl_s9_bg_desktop.png?width=1920&optimize=high");
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  font-size: 36px;
+  text-align: center;
+  text-shadow: 4px 4px 6px black;
+  font-family: "BourgeoisUltra", "Arial Regular", Arial, sans-serif;
+  font-style: italic;
+  filter: drop-shadow(-4px -4px 6px #000)
+}
+
+.lava-section-title {
+  filter: drop-shadow(-4px -4px 6px #000);
+}
+
+.lava-section-paragraph {
+  filter: drop-shadow(-4px -4px 6px #000);
+}
+
+.grid-conteiner {
+  display: flex;
+  background-image: url("https://rocketleague.media.zestyio.com/rl_home_f2p-launch_cross_square_10016.jpg?optimize=high");
+  width: 100%;
+  height: 800px;
+  background-repeat: no-repeat;
+  align-items: flex-end;
+  justify-content: center;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+  background-attachment: scroll;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+
+.grid-wrap-inner {
+  display: flex;
+  background-image: url("https://rocketleague.media.zestyio.com/rl_s9_section_pattern_mobile_2.png");
+  width: 35%;
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: bottom;
+  background-position-x: right;
+  border-right: 0.25vw solid orange;
+  color: rgb(231, 247, 7);
+  font-size: 36px;
+  text-align: center;
+  text-shadow: 4px 4px 6px black;
+  font-family: "BourgeoisUltra", "Arial Regular", Arial, sans-serif;
+  font-style: italic;
+  filter: drop-shadow(-4px -4px 6px #000);
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  justify-content: space-around;
+}
+
+.grid-section-title {
+  display: flex;
+}
+
+.grid-section-paragraph {
+  display: flex;
+  color: aliceblue;
+  align-items: center;
+  justify-content: end;
+}
+
+.button-grid-section {
+
+  display: flex;
+  background-image: url(https://rocketleague.media.zestyio.com/rl_s9_learn_more_button_3.png);
+  font-size: 4.75vw;
+  border-top: 0.35vw solid #ee8712;
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  text-shadow: 1px 1px 15px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  flex-flow: column;
+  text-decoration: none;
+  width: 50%;
+
+  align-self: center;
+  background: none;
+  border-bottom: 0.35vw solid #ee8712;
+  border-left: 0.35vw solid #ee8712;
+  border-right: 0.35vw solid #ee8712;
+  cursor: pointer;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.button-grid-sectio:hover {
+  text-shadow: 1px 1px 15px #666666;
+  text-decoration: none;
+}
+
+.second-grid-conteiner {
+  display: flex;
+  width: 100%;
+  height: 900px;
+  background-image: url("https://rocketleague.media.zestyio.com/rl_home_f2p-launch_event_10983.jpg?optimize=high");
+  background-size: contain;
+  background-repeat: no-repeat;
+  align-items: flex-end;
+  justify-content: center;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+  background-attachment: scroll;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-end;
+
+}
+
+
+
+.second-grid-wrap-inner {
+  background-image: url("https://rocketleague.media.zestyio.com/rl_s9_section_pattern_mobile_1.png");
+  width: 35%;
+  height: 900px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: bottom;
+  background-position-x: left;
+  border-left: 0.25vw solid rgb(62, 11, 204);
+  color: rgb(54, 19, 180);
+  font-size: 36px;
+  text-align: center;
+  text-shadow: 4px 4px 6px black;
+  font-family: "BourgeoisUltra", "Arial Regular", Arial, sans-serif;
+  font-style: italic;
+  filter: drop-shadow(-4px -4px 6px #000);
+  justify-content: space-around;
+}
+
+.second-grid-section-title {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  justify-items: center;
+  align-self: center;
+  align-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  flex-grow: initial;
+  padding: 5vw;
+}
+
+.second-grid-section-paragraph {
+  color: aliceblue;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-self: center;
+}
+
+.tree-grid-conteiner {
+  display: flex;
+  background-image: url("https://rocketleague.media.zestyio.com/rl_home_f2p-launch_shop_square_10515.jpg?optimize=high");
+  width: 100%;
+  height: 800px;
+  background-repeat: no-repeat;
+  align-items: flex-end;
+  justify-content: center;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+  background-attachment: scroll;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.tree-grid-wrap-inner {
+  display: flex;
+  background-image: url("https://rocketleague.media.zestyio.com/rl_s9_section_pattern_mobile_2.png");
+  width: 35%;
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  background-position-x: right;
+  border-right: 0.25vw solid orange;
+  color: rgb(231, 247, 7);
+  font-size: 36px;
+  text-align: center;
+  flex-direction: column;
+  text-shadow: 4px 4px 6px black;
+  font-family: "BourgeoisUltra", "Arial Regular", Arial, sans-serif;
+  font-style: italic;
+  filter: drop-shadow(-4px -4px 6px #000);
+  padding-bottom: 2vw;
+}
+
+.tree-grid-section-title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  padding: 2vw;
+  margin-bottom: 2.35%;
+  font-size: 2.85vw;
+  line-height: 1;
+  font-family: BourgeoisUltra, "Arial Regular", Arial, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  filter: drop-shadow(-4px -4px 6px #000);
+  text-shadow: 4px 4px 6px black;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  margin-top: 6vw;
+}
+
+.four-grid-section-paragraph {
+  display: flex;
+  font-size: 1.25vw;
+  line-height: 1.35;
+  color: rgb(216, 222, 228);
+  align-items: center;
+  justify-content: center;
+  margin-top: 2vw;
+  text-shadow: 4px 4px 6px black;
+}
+
+.four-grid-conteiner {
+  display: flex;
+  width: 100%;
+  height: 900px;
+  background-image: url("https://rocketleague.media.zestyio.com/rl_home_f2p-launch_music_square_10204.jpg?optimize=high");
+  background-size: contain;
+  background-repeat: no-repeat;
+  align-items: flex-end;
+  justify-content: center;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+  background-attachment: scroll;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+
+
+
+.four-grid-wrap-inner {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  background-image: url("https://rocketleague.media.zestyio.com/rl_s9_section_pattern_mobile_1.png");
+  width: 35%;
+  height: 900px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: bottom;
+  background-position-x: left;
+  border-left: 0.25vw solid rgb(62, 11, 204);
+  color: rgb(54, 19, 180);
+  font-size: 36px;
+  text-shadow: 4px 4px 6px black;
+  font-family: "BourgeoisUltra", "Arial Regular", Arial, sans-serif;
+  font-style: italic;
+  filter: drop-shadow(-4px -4px 6px #000)
+}
+
+.four-grid-section-title {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+
+}
+
+.four-button-grid-section {
+
+  display: flex;
+  background-image: url(https://rocketleague.media.zestyio.com/rl_home_f2p_spotify_icon.png);
+  font-size: 2.75vw;
+  border-top: 0.35vw solid #ee8712;
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  text-shadow: 1px 1px 15px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  width: 35%;
+  align-self: center;
+  background: none;
+  border-bottom: 0.35vw solid #ee8712;
+  border-left: 0.35vw solid #ee8712;
+  border-right: 0.35vw solid #ee8712;
+  cursor: pointer;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: stretch;
+
+}
+.footer-conteiner{
+  background: #000;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+
+.footer-top{
+width: 10%;
+height: 500px;
+display:flex;
+flex-direction: row;
+flex-wrap: nowrap;
+font-size: 14.4px;
+
+}
+
+.ul-footer-top{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex-grow: initial;
+  align-items: flex-start;
+  
+}

@@ -1,0 +1,58 @@
+/* how to id # */
+/* how to class . */
+
+@font-face {
+    font-family: "Bourgeois W00 Medium";
+    src: url("https://rocketleague.media.zestyio.com/15bd325b-7340-4820-a91f-4c769a671b48.eot?#iefix");
+    src: url("https://rocketleague.media.zestyio.com/15bd325b-7340-4820-a91f-4c769a671b48.eot?#iefix") format("eot"), url("https://rocketleague.media.zestyio.com/a4269305-6c5d-410c-a86c-fc728375b1ed.woff2") format("woff2"), url("https://rocketleague.media.zestyio.com/4b45c333-6fe2-4083-a90c-aaf8c3787c21.woff") format("woff"), url("https://rocketleague.media.zestyio.com/11bf773b-5756-44f7-986c-38294a86bce7.ttf") format("truetype"), url("https://rocketleague.media.zestyio.com/7217b7db-d231-4217-9db5-bc2c2918ce05.svg#7217b7db-d231-4217-9db5-bc2c2918ce05") format("svg")
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Bourgeois W00 Medium", "Arial Regular", Arial, sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar {
+    background: #000b28;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px
+}
+
+.nav-list>li {
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.icon-list>li {
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 20px;
+    text-transform: capitalize;
+}
+
+.field {
+    width: 100vw;
+}
+
+.season-title {
+    position: absolute;
+    bottom: 100px;
+    right: 50%;
+    transform: translate(50%, -50%);
+    font-size: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(243, 141, 9);
+    text-shadow: 5px 0 black, 0 4px black, 7px 0 black, 0 6px black
+}
